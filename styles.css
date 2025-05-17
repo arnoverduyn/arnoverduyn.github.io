@@ -256,18 +256,19 @@ footer {
     .tab-menu,
     .tab-menu2,
     .tab-menu3 {
-      flex-direction: column;
-      margin-left: 4vw;
-      margin-right: 4vw;
-      align-items: stretch;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-left: 5vw;
+      margin-right: 5vw;
     }
   
     .tab-link,
     .tab-link2,
     .tab-link3 {
-      width: 100%;
       padding: 10px;
       font-size: 14px;
+      flex: 1 1 auto; /* Allow resizing */
       text-align: center;
     }
   
