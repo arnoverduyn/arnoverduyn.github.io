@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/icon.png" type="image/png">
+    <title>Arno Verduyn</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="Images/profile_insta.jpg" alt="Profile Picture" class="profile-picture">
+        <h1>Arno Verduyn</h1>
+    </header>
+    
+    <div class="container">
+        <div class="tab-menu">
+            <button class="tab-link active" onclick="openTab(event, 'news')">News</button>
+            <button class="tab-link" onclick="openTab(event, 'profile')">Profile</button>
+            <button class="tab-link" onclick="openTab(event, 'publications')">Publications</button>
+            <button class="tab-link" onclick="openTab(event, 'contact')">Contact</button>
+        </div>
+
+        <div id="news" class="tab-content active">
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Feb. 2024</div>
+                    <p>Our paper on <a href="https://ieeexplore.ieee.org/abstract/document/10610030?casa_token=VbBqDoP49bsAAAAA:GoKLJkuNARN1zwR7xKOpTYLiW2FmTrDwTTKGPGn-ttj8Ie0r1AwKUnFWi-2BK3Cw7LWJTU9DnJc" target="_blank">rigid-body trajectory segmentation</a> has been <strong>accepted</strong> for the ICRA 2024 conference in Yokohama, Japan!</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Dec. 2023</div>
+                    <p>Our paper on <a href="https://ieeexplore.ieee.org/document/10269543" target="_blank">interpreting contact tasks using coordinate-invariant trajectory representations</a> has been <strong>published</strong> in the December 2023 issue of the IEEE Transactions on Robotics!</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Mar. 2023</div>
+                    <p>We achieved a <strong>Best Poster Award</strong> at the Flanders Make Conference on Machines, Vehicles and Production Technology, which took place on 30 March 2023 at Antwerp Expo.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">May 2023</div>
+                    <p>Our paper on <a href="https://ieeexplore.ieee.org/abstract/document/10260519?casa_token=liDWwjikLvAAAAAA:mWTDOeL-Oww8fnWazlmQRZW1jjEyxWyCyxyEj4-euarKMc4gQCbIKXxEAYtShjMnKR9jfxnvv0k" target="_blank">trajectory generation for robotic spray painting</a> has been <strong>accepted</strong> for the 2023 CASE conference in Auckland, New Zealand!</p>
+                </div>
+                
+                
+                <!-- Add more timeline items here as needed -->
+            </div>
+        </div>
+    
+        <div id="profile" class="tab-content">
+            <div class="tab-menu3">
+                <button class="tab-link3 active" onclick="openTab3(event, 'bio')">About me</button>
+                <button class="tab-link3" onclick="openTab3(event, 'cv')">Curriculum Vitae</button>
+            </div>
+            <div id="bio" class="tab-content3 active">
+                <p>I was born on March 28, 1996 in Antwerp (Wilrijk), Belgium. I obtained a Bachelor's and Master's degrees in Mechanical Engineering from KU Leuven, Belgium, in 2018 and 2020, respectively.</p>
+                <p>I am currently pursuing a PhD at KU Leuven. I have always been drawn to the deeper questions behind how things move and interact, which is why my research focuses on abstract yet powerful concepts like invariant trajectory descriptors. It's the kind of work that lives in equations and theory, until it suddenly clicks in a real-world application. That's when it gets really exciting. </p>
+                <p>Beyond research, I like to keep things balanced. Drawing lets me slow down and focus on detail and creativity, while athletics, especially the 400m, teaches me the value of consistency, grit, and pushing through the tough stretches. Whether it's in science, art, or sport, I enjoy the process of setting goals and seeing them come to life. </p>
+            </div>
+            <div id="cv" class="tab-content3">
+                <h3>Summary</h3>
+                <p>I am a PhD researcher in the Robotics Research Group at KU Leuven, with a background in mechanical and electrical engineering. My research focuses on invariant descriptors for rigid-body motion as part of the European Research Council's ROBOTGENSKILL project, aimed at generalizing human-demonstrated robot skills. I also contributed to projects in industrial robotics, such as trajectory planning for robotic spray painting. This research is supervised by Prof. Dr. ir. <a href= "https://www.kuleuven.be/wieiswie/nl/person/00011419" target="_blank" style="margin-right: 0.5vw;">Joris De Schutter</a>and Dr. ir. <a href="https://maximvochten.github.io/" target="_blank" style="margin-right: 0.5vw;">Maxim Vochten</a>.</p>
+                <p>My experience includes publishing peer-reviewed papers, presenting at international conferences (ICRA 2023, CASE 2024), mentoring master's students, and collaborating across disciplines. I have received recognition such as a Best Poster Award (Flanders Make 2023) and served as a session chair at the 2024 CASE conference.</p>
+                <p>I hold a Master's degree in Mechanical Engineering (cum laude) and a Bachelor's degree in Electrical Engineering (cum laude), both from KU Leuven. My technical skills include MATLAB, Python, ROS, LaTeX, and C++, with hands-on experience using the Franka Emika Panda robot and HTC Vive.</p>
+                <h3>CV Download</h3>
+                <p>You can find my complete CV as a PDF <a href="Documents/cv.pdf" target="_blank">using this link</a>.</p>
+            </div>
+        </div>
+    
+        <div id="contact" class="tab-content">
+            <p>
+                Feel free to reach out to me via email: 
+                <a href="mailto:arno.verduyn@kuleuven.be" class="email-link">arno.verduyn@kuleuven.be</a> 
+                or any of the social media platforms listed below:
+            </p>
+            <p style="text-align: center;"> 
+                <a href="https://be.linkedin.com/in/arno-verduyn-7738021a7" target="_blank" style="margin-right: 0.5vw;">
+                <i class="fa-brands fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://www.facebook.com/arno.verduyn.1" target="_blank" style="margin-right: 0.5vw;">
+                <i class="fa-brands fa-facebook"></i> Facebook
+                </a>
+                <a href="https://www.instagram.com/arnoverduyn/" target="_blank" style="margin-right: 0.5vw;">
+                <i class="fa-brands fa-instagram"></i> Instagram
+                </a>
+            </p>
+            <p>You can also explore my code repositories and research contributions on GitHub and ORCID:</p>
+            <p style="text-align: center;"> <a href="https://github.com/arnoverduyn" target="_blank" style="margin-right: 0.5vw;"> 
+                <i class="fa-brands fa-github"></i> Github
+                </a>
+                <a href="https://orcid.org/0000-0002-5073-3881" target="_blank" style="margin-right: 0.5vw;">
+                <i class="fa-solid fa-id-card"></i> ORCID 
+                </a>
+                <!--
+                <a href="https://www.youtube.com/@arnoverduyn" target="_blank" style="margin-right: 0.5vw;">
+                <i class="fa-brands fa-youtube"></i> YouTube
+                </a>
+                -->
+            </p>
+        </div>
+    
+        <div id="publications" class="tab-content">
+            <div class="tab-menu2">
+                <button class="tab-link2 active" onclick="openTab2(event, 'journal')">Journal</button>
+                <button class="tab-link2" onclick="openTab2(event, 'conference')">Conference</button>
+                <button class="tab-link2" onclick="openTab2(event, 'preprints')">Preprints</button>
+            </div>
+            <div id="journal" class="tab-content2 active">
+                <div class="conference-entry">
+                    <span class="conference-badge">TRO</span>
+                    <p>
+                        <strong>Invariant Descriptors of Motion and Force Trajectories for Interpreting Object Manipulation Tasks in Contact</strong>.
+                        Maxim Vochten, Ali Mousavi Mohammadi, <span class="authorhighlight">Arno Verduyn</span>, Tinne De Laet, Erwin Aertbeliën, and Joris De Schutter.
+                        <em>IEEE Transactions on Robotics</em>, 2023. <a href="https://ieeexplore.ieee.org/document/10269543" target="_blank">[PDF] IEEE.org</a>
+                    </p>
+                </div>
+                <div class="conference-entry">
+                    <span class="conference-badge">PLOS</span>
+                    <p>
+                        <strong>An Optimal Method for Calculating an Average Screw Axis for a Joint, with Improved Sensitivity to Noise and Providing an Analysis of the Dispersion of the Instantaneous Axes</strong>.
+                        Andrea Ancillao, Maxim Vochten, <span class="authorhighlight">Arno Verduyn</span>, Joris De Schutter, and Erwin Aertbeliën.
+                        <em>PLOS One</em>, 2022. <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0275218" target="_blank">[PDF] plos.org</a>
+                    </p>
+                </div>
+            </div>
+            <div id="conference" class="tab-content2">
+                <div class="conference-entry">
+                    <span class="conference-badge">ICRA</span>
+                    <p>
+                        <strong>Enhancing motion trajectory segmentation of rigid bodies using a novel screw-based trajectory-shape representation</strong>.
+                        <span class="authorhighlight">Arno Verduyn</span>, Maxim Vochten, and Joris De Schutter.
+                        <em>In 2024 IEEE International Conference on Robotics and Automation (ICRA)</em>, 2024. <a href="https://ieeexplore.ieee.org/abstract/document/10610030?casa_token=VbBqDoP49bsAAAAA:GoKLJkuNARN1zwR7xKOpTYLiW2FmTrDwTTKGPGn-ttj8Ie0r1AwKUnFWi-2BK3Cw7LWJTU9DnJc" target="_blank">[PDF] IEEE.org</a>
+                    </p>
+                </div>
+                <div class="conference-entry">
+                    <span class="conference-badge">CASE</span>
+                    <p>
+                        <strong>Shape-based path adaptation and simulation-based velocity optimization of initial tool trajectories for robotic spray painting</strong>.
+                        <span class="authorhighlight">Arno Verduyn</span>, Joris De Schutter, Wilm Decré, and Maxim Vochten.
+                        <em>In 2023 IEEE International Conference on Automation Science and Engineering (CASE)</em>, 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10260519?casa_token=liDWwjikLvAAAAAA:mWTDOeL-Oww8fnWazlmQRZW1jjEyxWyCyxyEj4-euarKMc4gQCbIKXxEAYtShjMnKR9jfxnvv0k" target="_blank">[PDF] IEEE.org</a>
+                    </p>
+                </div>
+            </div>
+            <div id="preprints" class="tab-content2">
+                <p>
+                    <strong>BILTS: A Bi-Invariant Similarity Measure for Robust Object Trajectory Recognition under Reference Frame Variations</strong>.
+                    <span class="authorhighlight">Arno Verduyn</span>, Erwin Aertbeliën, Glenn Maes, Joris De Schutter, Maxim Vochten.
+                    <em>Submitted to Journal of Intelligent and Robotic Systems (JIRS)</em>, 2025. <a href="https://arxiv.org/pdf/2405.04392" target="_blank">[PDF] arxiv.org</a>
+                </p>
+                <p>
+                    <strong>Enhancing Hand Palm Motion Gesture Recognition by Eliminating Reference Frame Bias via Frame-Invariant Similarity Measures</strong>.
+                    <span class="authorhighlight">Arno Verduyn</span>, Maxim Vochten, and Joris De Schutter.
+                    <em>Submitted to 2025 IEEE International Conference on Automation Science and Engineering (CASE)</em>, 2025. <a href="https://arxiv.org/html/2503.11352v1" target="_blank">[PDF] arxiv.org</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Arno Verduyn. Last updated: May 2025.</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>

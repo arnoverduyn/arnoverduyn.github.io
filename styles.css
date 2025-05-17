@@ -1,0 +1,241 @@
+.profile-picture {
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
+    top: 1vw;
+    left: 1vw;
+}
+.container {
+    max-width: 700px; /* or 1024px, 1200px depending on preference */
+    margin: 0 auto;   /* centers the container horizontally */
+    padding: 0 1rem;  /* optional, adds side padding for breathing room */
+}
+
+header {
+    background-color: #4c65af;
+    color: white;
+    padding: 2vw;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-left: 0;
+}
+
+h1 {
+    padding-left: 2vw; /* Apply padding to only the paragraphs */
+}
+
+h2 {
+    padding-left: 2vw; /* Apply padding to only the paragraphs */
+}
+
+h3 {
+    padding-left: 3vw; /* Apply padding to only the paragraphs */
+}
+
+p {
+    padding-left: 3vw; /* Apply padding to only the paragraphs */
+}
+
+.authorhighlight {
+    font-weight: bold;
+    color: #4c65af;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1vw;
+}
+
+.tab-menu {
+    display: flex;
+    justify-content: space-between; /* Distribute tabs evenly */
+    margin-left: 2vw;
+    margin-right: 2vw;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 2vw;
+}
+  
+.tab-link {
+    background: none;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-bottom: 3px solid transparent;
+    transition: border-color 0.3s, color 0.3s;
+}
+
+.tab-link:hover,
+.tab-link.active {
+    border-color: #4c65af;
+    color: #4c65af;
+    font-weight: bold;
+    border-bottom: 3px solid #4c65af; /* To emphasize the active tab */
+}
+
+.tab-content {
+    display: none;
+    padding: 10px 0;
+}
+
+
+.tab-content.active {
+    display: block;
+}
+
+
+#news {
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.timeline {
+    position: relative;
+    padding-left: 2vw;
+    border-left: 0.3vw solid #4c65af; /* Vertical line for the timeline */
+}
+
+.timeline-item {
+    margin-bottom: 2vw;
+    position: relative;
+}
+
+.timeline-date {
+    font-size: 14px;
+    font-weight: bold;
+    color: #4c65af;
+    position: absolute;
+    top: 1vw;
+    left: 1.5vw; /* Adjust the distance from the line */
+    text-align: left;
+    width: 10vw;
+}
+
+.timeline-item p {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-left: 10vw; /* Indentation to the right */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-item:before {
+    content: '';
+    position: absolute;
+    left: -1vw;
+    top: 0.8vw;
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: #4c65af; /* The bullet point */
+    border-radius: 50%;
+}
+
+.tab-menu2 {
+    display: flex;
+    justify-content: space-between; /* Distribute tabs evenly */
+    margin-left: 12vw;
+    margin-right: 12vw;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 2vw;
+}
+  
+.tab-link2 {
+    background: none;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-bottom: 3px solid transparent;
+    transition: border-color 0.3s, color 0.3s;
+}
+
+.tab-link2:hover,
+.tab-link2.active {
+    border-color: #4c65af;
+    color: #4c65af;
+    font-weight: bold;
+    border-bottom: 3px solid #4c65af; /* To emphasize the active tab */
+}
+
+.tab-content2 {
+    display: none;
+    padding: 10px 0;
+}
+
+
+.tab-content2.active {
+    display: block;
+}
+
+.tab-menu3 {
+    display: flex;
+    justify-content: space-between; /* Distribute tabs evenly */
+    margin-left: 16vw;
+    margin-right: 16vw;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 2vw;
+}
+.tab-link3 {
+    background: none;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-bottom: 3px solid transparent;
+    transition: border-color 0.3s, color 0.3s;
+}
+.tab-link3:hover,
+.tab-link3.active {
+    border-color: #4c65af;
+    color: #4c65af;
+    font-weight: bold;
+    border-bottom: 3px solid #4c65af; /* To emphasize the active tab */
+}
+.tab-content3 {
+    display: none;
+    padding: 10px 0;
+}
+.tab-content3.active {
+    display: block;
+}
+
+.conference-entry {
+    display: flex;
+    align-items: baseline; /* align badge and paragraph top-aligned */
+    gap: 0vw; /* space between badge and paragraph */
+    margin-bottom: 0;
+  }
+  
+.conference-badge {
+    flex-shrink: 0; /* keep badge size fixed */
+    background-color: #4c65af;
+    color: white;
+    font-weight: bold;
+    padding: 3px 5px;
+    border-radius: 3px;
+    min-width: 50px;
+    text-align: center;
+    font-size: 0.8rem;
+    user-select: none;
+    margin-left: 2vw;
+    margin-right: -2vw
+}
+
+.email-link {
+    color: #4c65af;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+    color: #2c3e91;
+}
