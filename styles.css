@@ -38,6 +38,7 @@ h3 {
 
 p {
     padding-left: 3vw; /* Apply padding to only the paragraphs */
+    text-align: justify;
 }
 
 .authorhighlight {
@@ -125,6 +126,7 @@ footer {
     border: 1px solid #ddd;
     margin-left: 10vw; /* Indentation to the right */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: justify;
 }
 
 .timeline-item:before {
@@ -289,6 +291,7 @@ footer {
         margin-left: 0;
         font-size: 14px;
         padding-left: 10px;
+        text-align: justify;
     }
 
     .timeline-item:before {
@@ -303,9 +306,13 @@ footer {
 
 
     h1, h2, h3, p {
-      padding-left: 2vw;
-      padding-right: 2vw;
-      font-size: 14px;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        font-size: 14px;
+    }
+
+    p {
+        text-align: justify;
     }
   
     .conference-badge {
