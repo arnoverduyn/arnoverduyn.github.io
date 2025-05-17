@@ -292,10 +292,13 @@ footer {
     }
 
     .timeline-item:before {
-        left: -1.5vw;
-        top: 0.6vw;
-        width: 3vw;
-        height: 3vw;
+        position: absolute;
+        left: -8px;
+        top: 5px;
+        width: 12px;
+        height: 12px;
+        background-color: #4c65af;
+        border-radius: 50%;
     }
 
 
