@@ -239,3 +239,64 @@ footer {
     text-decoration: underline;
     color: #2c3e91;
 }
+
+
+@media (max-width: 768px) {
+    .profile-picture {
+      width: 25vw;
+      height: 25vw;
+      top: 2vw;
+      left: 2vw;
+    }
+  
+    .container {
+      padding: 0 5vw;
+    }
+  
+    .tab-menu,
+    .tab-menu2,
+    .tab-menu3 {
+      flex-direction: column;
+      margin-left: 4vw;
+      margin-right: 4vw;
+      align-items: stretch;
+    }
+  
+    .tab-link,
+    .tab-link2,
+    .tab-link3 {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+      text-align: center;
+    }
+  
+    .timeline-date {
+      font-size: 12px;
+      width: 25vw;
+      left: 0;
+    }
+  
+    .timeline-item p {
+      margin-left: 28vw;
+      font-size: 14px;
+    }
+  
+    h1, h2, h3, p {
+      padding-left: 2vw;
+      padding-right: 2vw;
+    }
+  
+    .conference-badge {
+      font-size: 0.7rem;
+      min-width: 40px;
+      margin-left: 1vw;
+      margin-right: -1vw;
+    }
+  
+    footer {
+      font-size: 14px;
+      padding: 3vw;
+    }
+  }
+  
