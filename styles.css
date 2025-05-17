@@ -53,6 +53,10 @@ footer {
     padding: 1vw;
 }
 
+footer p{
+    text-align: center;
+}
+
 .tab-menu {
     display: flex;
     justify-content: space-between; /* Distribute tabs evenly */
