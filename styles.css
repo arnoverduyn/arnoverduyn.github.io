@@ -178,8 +178,8 @@ footer {
 .tab-menu3 {
     display: flex;
     justify-content: space-between; /* Distribute tabs evenly */
-    margin-left: 16vw;
-    margin-right: 16vw;
+    margin-left: 13vw;
+    margin-right: 13vw;
     border-bottom: 2px solid #ccc;
     margin-bottom: 2vw;
 }
