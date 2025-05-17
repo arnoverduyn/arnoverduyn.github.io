@@ -272,17 +272,32 @@ footer {
       text-align: center;
     }
   
+    .timeline {
+        padding-left: 4vw;
+        border-left: 2px solid #4c65af;
+    }
+
     .timeline-date {
-      font-size: 12px;
-      width: 25vw;
-      left: 0;
+        position: static; /* Removes absolute positioning */
+        font-size: 14px;
+        margin-bottom: 5px;
+        width: auto;
     }
-  
+
     .timeline-item p {
-      margin-left: 28vw;
-      font-size: 14px;
+        margin-left: 0;
+        font-size: 14px;
+        padding-left: 10px;
     }
-  
+
+    .timeline-item:before {
+        left: -1.5vw;
+        top: 0.6vw;
+        width: 1vw;
+        height: 1vw;
+    }
+
+
     h1, h2, h3, p {
       padding-left: 2vw;
       padding-right: 2vw;
