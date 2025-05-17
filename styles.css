@@ -294,7 +294,7 @@ footer {
     .timeline-item:before {
         position: absolute;
         left: 0px;
-        top: 0px;
+        top: 2px;
         width: 12px;
         height: 12px;
         background-color: #4c65af;
@@ -305,6 +305,7 @@ footer {
     h1, h2, h3, p {
       padding-left: 2vw;
       padding-right: 2vw;
+      font-size: 14px;
     }
   
     .conference-badge {
@@ -315,7 +316,7 @@ footer {
     }
   
     footer {
-      font-size: 14px;
+      font-size: 10px;
       padding: 3vw;
     }
   }
