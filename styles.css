@@ -24,20 +24,7 @@ body {
     padding-left: 0;
 }
 
-h1 {
-    padding-left: 2vw; /* Apply padding to only the paragraphs */
-}
-
-h2 {
-    padding-left: 2vw; /* Apply padding to only the paragraphs */
-}
-
-h3 {
-    padding-left: 3vw; /* Apply padding to only the paragraphs */
-}
-
 p {
-    padding-left: 3vw; /* Apply padding to only the paragraphs */
     text-align: justify;
 }
 
